@@ -15,6 +15,7 @@
 		3C1ED0EA204A605600661DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1ED0E8204A605600661DF6 /* LaunchScreen.storyboard */; };
 		3C1ED0F5204A605600661DF6 /* weather_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1ED0F4204A605600661DF6 /* weather_appTests.swift */; };
 		3C1ED100204A605600661DF6 /* weather_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1ED0FF204A605600661DF6 /* weather_appUITests.swift */; };
+		3C1ED110204A7F8000661DF6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1ED10F204A7F8000661DF6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3C1ED0FB204A605600661DF6 /* weather_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weather_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1ED0FF204A605600661DF6 /* weather_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_appUITests.swift; sourceTree = "<group>"; };
 		3C1ED101204A605600661DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1ED10F204A7F8000661DF6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3C1ED0DC204A605600661DF6 /* AppDelegate.swift */,
 				3C1ED0DE204A605600661DF6 /* ViewController.swift */,
 				3C1ED0E0204A605600661DF6 /* Main.storyboard */,
+				3C1ED10F204A7F8000661DF6 /* TableViewController.swift */,
 				3C1ED0E6204A605600661DF6 /* Assets.xcassets */,
 				3C1ED0E8204A605600661DF6 /* LaunchScreen.storyboard */,
 				3C1ED0EB204A605600661DF6 /* Info.plist */,
@@ -265,6 +268,7 @@
 				3C1ED0E5204A605600661DF6 /* weather_app.xcdatamodeld in Sources */,
 				3C1ED0DF204A605600661DF6 /* ViewController.swift in Sources */,
 				3C1ED0DD204A605600661DF6 /* AppDelegate.swift in Sources */,
+				3C1ED110204A7F8000661DF6 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hoge.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hoge.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
